@@ -8,6 +8,7 @@ Sistema desenvolvido como solução para o desafio técnico da LuizaLabs (Vertic
 - Spring Boot 3.x
 - Lombok
 - Maven
+- H2
 
 ## 📁 Estrutura do Projeto
 ```
@@ -15,18 +16,14 @@ src/
 ├── controller/             # Endpoints REST
 ├── service/                # Regra de negócio
 ├── model/                  # DTOs usados na entrada/saída
+├── repository/             # Acesso ao banco H2
 └── resources/              # Arquivos de configuração
 ```
 
-## 📦 Executando o Projeto
+## 📦 Baixando o Projeto
 ```bash
 # Clonar o projeto
 $ git clone https://github.com/williancunhamoraes/Desafio.git
-$ cd luizalabs-logistica-api
-
-# Compilar e executar
-$ mvn clean install
-$ mvn spring-boot:run
 ```
 
 ## 📥 Requisição de Processamento
@@ -49,12 +46,8 @@ curl -X POST http://localhost:8080/api/v1/pedidos/processar \
 - Processamento e parsing de linhas fixas
 - Agrupamento por usuário → pedidos → produtos
 - Cálculo de totais e datas formatadas
-- Filtros por data e busca por ID de pedido
-
-## 🔍 Melhorias Futuras
-- Persistência em banco de dados (JPA ou NoSQL)
-- Paginação e cache para grandes volumes
-- Testes unitários e de integração (JUnit, MockMvc)
+- Filtros por data 
+- Busca por ID de pedido
 
 ## 📄 Exemplo de Arquivo de Entrada
 ```
@@ -65,7 +58,7 @@ curl -X POST http://localhost:8080/api/v1/pedidos/processar \
 ```
 
 ## 👨‍💻 Autor
-Desenvolvido por Willian Moraes.
+Desenvolvido por Willian Moraes em 06/06/2025
 
 ---
 LuizaLabs • Desafio Técnico Logística
