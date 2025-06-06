@@ -21,7 +21,7 @@ src/
 ## 📦 Executando o Projeto
 ```bash
 # Clonar o projeto
-$ git clone https://github.com/seu-usuario/luizalabs-logistica-api.git
+$ git clone https://github.com/williancunhamoraes/Desafio.git
 $ cd luizalabs-logistica-api
 
 # Compilar e executar
