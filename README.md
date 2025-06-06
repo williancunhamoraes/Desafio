@@ -1,4 +1,3 @@
-// === README.md ===
 # LuizaLabs - Desafio Técnico - Logística
 
 ## 💡 Descrição
