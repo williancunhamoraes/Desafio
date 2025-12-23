@@ -1,4 +1,4 @@
-# LuizaLabs - Desafio Técnico - Logística
+# Desafio Técnico - Logística
 
 ## 💡 Descrição
 Sistema desenvolvido como solução para o desafio técnico da LuizaLabs (Vertical Logística). O objetivo é transformar um arquivo `.txt` com estrutura desnormalizada de pedidos em um JSON estruturado e agrupado por usuário, pedidos e produtos.
